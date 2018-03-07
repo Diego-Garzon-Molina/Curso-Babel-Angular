@@ -13,13 +13,14 @@ import { RouterModule } from '@angular/router';
   ],
   declarations: [
     PieComponent,
-  CabezaComponent,
-  LogoComponent,
-  MenuComponent],
+    CabezaComponent,
+    LogoComponent,
+    MenuComponent],
   exports: [
     PieComponent,
     CabezaComponent,
-    MenuComponent
+    MenuComponent,
+    LogoComponent
   ]
 })
 export class NucleoModule { }

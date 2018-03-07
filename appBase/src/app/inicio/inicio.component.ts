@@ -3,9 +3,8 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'babel-inicio',
   template: `
-    <p>
-      inicio works!
-    </p>
+  <babel-saludo class="col-2"></babel-saludo>
+    <babel-saludo-local class="col-2"></babel-saludo-local>
   `,
   styles: []
 })

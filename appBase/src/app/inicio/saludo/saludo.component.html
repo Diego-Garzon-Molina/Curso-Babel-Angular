@@ -1,0 +1,27 @@
+<div class="card">
+  <div class="card-header">
+    Header
+  </div>
+  <div class="card-body">
+    <h4 class="card-title">Title</h4>
+    
+    <div class="form-group">
+      <label for="nombre">Introduce tu nombre</label>
+      <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Jamona Jimenez Jota" [(ngModel)] = "nombre"> 
+    </div>
+    <button type="button" name="" id="" class="btn btn-primary" (click)="fBorrar()">Borrar</button>
+  </div>
+  <div class="card-footer text-muted">
+    <p>Hola {{nombre}}
+    </p>
+    <p> 2 + 2 = {{2+2}}</p>
+  </div>
+</div>
+
+<!-- Lenguaje de Templates
+{{expresion}}
+[] operador de propiedades
+() operador de eventos
+[()] operador de doble binding o "banana in a box"
+# operador de expresions locales
+-->
