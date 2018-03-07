@@ -10,7 +10,7 @@
       <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Jamona Jimenez Jota" [(ngModel)]="sNombre">
     </div>
     <button type="button" name="" id="" class="btn btn-primary" (click)="fBorrar()">Borrar</button>
-    <babel-hijo [sNombre]="sNombre" (eRespuesta)="fBorrar()" ></babel-hijo>
+    <babel-hijo [sNombre]="sNombre" (eRespuesta)="fBorrarHijo($event)" ></babel-hijo>
   </div>
   
   <div class="card-footer text-muted">

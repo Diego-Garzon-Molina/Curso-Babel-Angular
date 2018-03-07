@@ -15,4 +15,7 @@ export class PadreComponent implements OnInit {
   fBorrar() {
     this.sNombre = '';
   }
+  fBorrarHijo(oEv) {
+    this.sNombre = oEv ;
+  }
 }
