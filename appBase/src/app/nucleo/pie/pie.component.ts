@@ -12,9 +12,9 @@ export class PieComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.autor = 'nosotros';
-    this.lugar = 'babel';
-    this.fecha = 'hoy';
+    this.autor = 'Diego Garzon';
+    this.lugar = 'BABEL';
+    this.fecha = '2018';
   }
 
 }
