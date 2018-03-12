@@ -3,9 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'babel-catalogo',
   template: `
-    <p>
-      catalogo works!
-    </p>
+  <babel-lista></babel-lista>
   `,
   styles: []
 })

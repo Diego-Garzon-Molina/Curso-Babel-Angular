@@ -20,9 +20,8 @@ export class FormTdComponent implements OnInit {
   ngOnInit() {
     this.aaDepartamentos =  aDepartamentos;
     this.aaPrinters = aPrinters;
-    this.departamento = this.aaDepartamentos[1];
     this.orderPrint = new OrderPrint('',  '',
-     '',  new Printer('', '') , false, false, this.departamento);
+     '',  new Printer('', '') , false, false, null);
   }
   enviar() {
     console.dir(this.formulario);

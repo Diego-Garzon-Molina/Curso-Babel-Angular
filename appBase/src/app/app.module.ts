@@ -9,6 +9,7 @@ import { MenuComponent } from './nucleo/menu/menu.component';
 import { InicioModule } from './inicio/inicio.module';
 import { AboutModule } from './about/about.module';
 import { ComunicsComponent } from './comunics/comunics.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -19,6 +20,7 @@ import { ComunicsComponent } from './comunics/comunics.component';
   imports: [
     BrowserModule,
     FormsModule,
+    HttpClientModule,
     AppRoutingModule,
     NucleoModule,
     InicioModule,

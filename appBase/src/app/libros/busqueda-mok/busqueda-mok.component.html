@@ -1,0 +1,22 @@
+<div class="card">
+  <div class="card-header">
+      <h4 class="card-title">Búsqueda en un Mock</h4>
+  </div>
+  <div class="card-body">
+  <div class="form-group">
+    
+    <label for="busqueda">Búsqueda por clave:</label>
+    <input type="text" class="form-control" name="busqueda" id="busqueda"placeholder="" [(ngModel)]="clave" >
+
+    <button type="button" class="btn btn-ligth m-2" (click)="buscar()" >Buscar</button>
+    <button type="button" class="btn btn-ligth m-2" (click)="buscarAsync()" >BuscarAync</button>
+  
+  <div class="card-footer text-muted">
+    Resultado:
+    <ul class="list-group">
+      
+      <li class="list-group-item" *ngFor="let libro of aLibros">{{libro}}</li>
+    
+    </ul>
+  </div>
+</div>
