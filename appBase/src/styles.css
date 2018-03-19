@@ -3,3 +3,7 @@
 body{
      background-color:bisque; 
  }
+ .right{
+     position: absolute;
+    right: 0px;
+ }
